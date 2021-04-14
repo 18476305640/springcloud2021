@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: cloud-consumer-order8080
+    name: cloud-consumer-order
 #服务入驻
 eureka:
   client:
@@ -10,4 +10,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://7001.cn.utools.club/eureka/,http://7002.cn.utools.club/eureka/
