@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-eureka-server7001</artifactId>
+    <artifactId>cloud-eureka-server7002</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,17 +17,16 @@
     </properties>
 
     <dependencies>
-
-        <!--引入我的自己的模块-->
-        <dependency>
-            <groupId>com.atguigu</groupId>
-            <artifactId>cloud-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <!--eureka-server-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <!--引入自定义的api通用包，可以使用Payment支付Entity-->
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>cloud-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--boot web actuator-->
         <dependency>
@@ -59,5 +58,4 @@
             <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
-
 </project>

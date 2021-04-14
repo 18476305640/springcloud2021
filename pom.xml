@@ -12,6 +12,7 @@
         <module>cloud-common</module>
         <module>cloud-consumer-order8080</module>
         <module>cloud-eureka-server7001</module>
+        <module>cloud-eureka-server7002</module>
     </modules>
     <packaging>pom</packaging>
 
