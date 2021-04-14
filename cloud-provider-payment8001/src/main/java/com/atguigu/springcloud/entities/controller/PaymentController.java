@@ -1,9 +1,9 @@
 //PaymentController
-package com.atguigu.springcloud.controller;
+package com.atguigu.springcloud.entities.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentService;
+import com.atguigu.springcloud.entities.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
