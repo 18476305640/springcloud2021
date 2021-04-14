@@ -17,6 +17,11 @@
     </properties>
 
     <dependencies>
+        <!--eureka-client client入驻server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!--导入我的的依赖-->
         <dependency>
             <groupId>com.atguigu</groupId>
