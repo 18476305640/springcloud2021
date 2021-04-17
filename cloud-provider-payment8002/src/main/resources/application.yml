@@ -23,7 +23,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://7001.cn.utools.club/eureka,http://7002.cn.utools.club/eureka
+      defaultZone: http://localhost:7001/eureka,http://7002.cn.utools.club/eureka
   instance:
     instance-id: payment-8002
     prefer-ip-address: true  #mouse hover时显示IP地址
