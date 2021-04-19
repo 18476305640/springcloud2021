@@ -23,7 +23,12 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:7001/eureka,http://7002.cn.utools.club/eureka
+      defaultZone: https://7001.cn.utools.club/eureka,https://7002.cn.utools.club/eureka
   instance:
     instance-id: payment-8002
     prefer-ip-address: true  #mouse hover时显示IP地址
+
+    #Eureka客户端向服务器端发送心跳的时间间隔 ，单位为秒（默认是30秒）
+    lease-renewal-interval-in-seconds: 1
+    #Eureka 服务端在收到最后一次心跳后等待时间上限，单位为秒（默认是90秒）,超时剔除服务
+    lease-expiration-duration-in-seconds: 2

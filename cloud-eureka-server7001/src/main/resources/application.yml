@@ -13,3 +13,10 @@ eureka:
       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
       defaultZone: http://7002.cn.utools.club/eureka/
 
+  # ******下面的代码用来关闭Eureka服务端的自我保护机制******
+  server:
+    # 关闭自我保护机制，保证不可用的服务被及时剔除
+    enable-self-preservation: false
+    # 如果2秒内没有收到某个微服务的心跳，那就剔除该微服务，单位为毫秒
+    eviction-interval-timer-in-ms: 2000
+
