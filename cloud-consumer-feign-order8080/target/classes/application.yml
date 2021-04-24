@@ -8,3 +8,7 @@ eureka:
 ribbon:
   ReadTimeout: 5000  #建立连接超时时间
   ConnectTimeout: 5000 #建立连接到服务器读取到杉资源所用的时间
+logging:
+  level:
+    #feign日志以什么级别监控哪个接口
+    com.atguigu.springcloud.service.PaymentFeignService: debug
