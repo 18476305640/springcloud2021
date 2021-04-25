@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
+@EnableCircuitBreaker
 public class OrderHystrixMain8080 {
     public static void main(String[] args) {
         SpringApplication.run(OrderHystrixMain8080.class,args);

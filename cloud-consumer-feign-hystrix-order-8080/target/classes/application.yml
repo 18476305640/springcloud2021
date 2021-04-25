@@ -9,3 +9,7 @@ eureka:
 ribbon:
   ReadTimeout: 5000  #建立连接超时时间
   ConnectTimeout: 5000 #建立连接到服务器读取到杉资源所用的时间
+#开启feign:hystrix属性
+feign:
+  hystrix:
+    enabled: true
