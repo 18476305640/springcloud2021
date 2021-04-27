@@ -15,4 +15,8 @@ public interface OrderHystrixService {
     //延时访问
     @GetMapping("/payment/hystrix/Timeout/{id}")
     public String paymentInfo_TimeOut(@PathVariable("id") Long id);
+
+
+
+
 }
