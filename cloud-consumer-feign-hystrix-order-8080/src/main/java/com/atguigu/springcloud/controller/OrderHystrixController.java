@@ -1,9 +1,8 @@
 package com.atguigu.springcloud.controller;
 
-import com.atguigu.springcloud.service.PaymentHystrixService;
+import com.atguigu.springcloud.service.OrderHystrixService;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +15,7 @@ import javax.annotation.Resource;
 @DefaultProperties(defaultFallback = "payment_Global_FallbackMethod")
 public class OrderHystrixController {
     @Resource
-    private PaymentHystrixService paymentHystrixService;
+    private OrderHystrixService paymentHystrixService;
 
     //正常访问
     @GetMapping("/consumer/payment/hystrix/OK/{id}")
