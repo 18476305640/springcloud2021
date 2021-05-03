@@ -14,6 +14,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
+@RequestMapping("/provider")
 @Slf4j
 public class PaymentController {
     @Resource
