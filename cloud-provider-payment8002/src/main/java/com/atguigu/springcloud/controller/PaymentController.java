@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @Slf4j
+@RequestMapping("/provider")
 public class PaymentController {
     @Resource
     private PaymentService paymentService;
