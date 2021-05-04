@@ -16,12 +16,17 @@ spring:
           uri: lb://CLOUD-PROVIDER-SERVICE # 修改为服务名称
           predicates:
             - Path=/provider/payment/get/**   #断言,路径相匹配的进行路由
+
         # 路由 2
         - id: payment_routh2
           #uri: http://localhost:8001
           uri: lb://CLOUD-PROVIDER-SERVICE # 修改为服务名称
           predicates:
             - Path=/provider/payment/lb/**   #断言,路径相匹配的进行路由
+            #- After=2021-05-04T11:29:24.264+08:00[Asia/Shanghai]
+            #- Cookie=username,zs # 表示名为 username 的 Cookie 的值必须符合后面的规则才可以
+            #- Header=X-Request-Id, \d+   #请求头中要有X-Request-Id属性并且值为整数的正则表达式
+            - Query=username, \d+
 
 eureka:
   instance:
