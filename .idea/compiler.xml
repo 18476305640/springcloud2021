@@ -17,6 +17,7 @@
         <module name="cloud-gateway-9527" />
         <module name="cloud-consumerconsul-order8080" />
         <module name="hystrix-dashboard-consumer9001" />
+        <module name="cloud-config-center-3344" />
         <module name="cloud-consumer-feign-hystrix-order-8080" />
         <module name="cloud-common" />
         <module name="cloud-consumer-feign-order8080" />
