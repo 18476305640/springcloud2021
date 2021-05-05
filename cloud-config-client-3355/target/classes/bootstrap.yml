@@ -1,0 +1,26 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      # 分支名称
+      label: master
+      # 配置文件名
+      name: config
+      # 环境
+      profile: dev
+      # 配置中心的地址
+      uri: http://localhost:3344
+eureka:
+  client:
+    service-url:
+      defaultZone: https://7001.cn.utools.club/eureka,https://7002.cn.utools.club/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

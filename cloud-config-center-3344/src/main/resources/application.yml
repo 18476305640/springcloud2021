@@ -7,11 +7,11 @@ spring:
     config:
       server:
         git:
-          # 填写自己的 github 路径
+          # 填写自己的 github 路径,注意如果用的是ssh链接，就算你电脑存在ssh并在github账号加入了，也可能会认证失败，因此在这里用的是http链接
           uri: https://github.com/18476305640/springcloud-config.git
           search-paths:
-            - springcloud-config
-      label: master
+            - springcloud-config  #仓库名
+      label: master   #分支名
 eureka:
   client:
     service-url:
