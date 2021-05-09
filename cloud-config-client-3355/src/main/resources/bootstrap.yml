@@ -14,6 +14,14 @@ spring:
       profile: dev
       # 配置中心的地址
       uri: http://localhost:3344
+  # RabbitMQ 相关的配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
 eureka:
   client:
     service-url:

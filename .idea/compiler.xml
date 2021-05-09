@@ -24,6 +24,7 @@
         <module name="cloud-consumerzk-order8080" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-config-client-3355" />
+        <module name="cloud-config-client-3366" />
       </profile>
     </annotationProcessing>
   </component>
