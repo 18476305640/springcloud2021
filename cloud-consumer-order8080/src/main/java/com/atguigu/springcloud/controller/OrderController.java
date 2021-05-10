@@ -67,4 +67,13 @@ public class OrderController {
         System.out.println("****选中server的uri："+uri);
         return restTemplate.getForObject(uri+"/payment/lb",String.class);
     }
+
+    /**
+     * 测试链路监控
+     */
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin(){
+        String result = restTemplate.getForObject(PAYMENT_URL+"/provider/payment/zipkin", String.class);
+        return result;
+    }
 }

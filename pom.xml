@@ -29,6 +29,8 @@
         <module>cloud-stream-rabbitmq-provider-8801</module>
         <module>cloud-stream-rabbitmq-consumer-8802</module>
         <module>cloud-stream-rabbitmq-consumer-8803</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9002</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -67,6 +69,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <!--spring cloud Hoxton.SR1-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>

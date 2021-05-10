@@ -3,6 +3,13 @@ server:
 spring:
   application:
     name: cloud-consumer-order
+  #zipkin配置
+  zipkin:
+    base-url: http://192.168.44.130:9411 # 指定zipkin地址
+    sleuth:
+      sampler:
+        # 采样率介于0~1之间，1则表示全部采集
+        probability: 1
 #服务入驻
 eureka:
   client:

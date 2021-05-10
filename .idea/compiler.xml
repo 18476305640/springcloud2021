@@ -19,6 +19,8 @@
         <module name="cloud-consumerconsul-order8080" />
         <module name="hystrix-dashboard-consumer9001" />
         <module name="cloud-config-center-3344" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-consumer-feign-hystrix-order-8080" />
         <module name="cloud-stream-rabbitmq-provider-8801" />
         <module name="cloud-stream-rabbitmq-consumer-8803" />
