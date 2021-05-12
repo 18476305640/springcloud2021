@@ -22,6 +22,7 @@
         <module name="cloudalibaba-provider-payment9002" />
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-consumer-feign-hystrix-order-8080" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-stream-rabbitmq-provider-8801" />
         <module name="cloud-stream-rabbitmq-consumer-8803" />
         <module name="cloud-common" />
