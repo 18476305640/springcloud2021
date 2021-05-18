@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    #active: dev # 表示找一个开发环境的配置文件
+    #active: test # 表示找一个测试环境的配置文件
+    active: info
+
+# ${spring.application.name}-${spring.cloud.config.file-extension}.${spring.profiles.active}  配置文件名的规则

@@ -1,0 +1,22 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: eureka7001.com #eureka服务端的实例名称
+  client:
+    #false表示不向注册中心注册自己
+    register-with-eureka: false
+    #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    fetch-registry: false
+    service-url:
+      #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://7002.cn.utools.club/eureka/
+
+  # ******下面的代码用来关闭Eureka服务端的自我保护机制******
+  server:
+    # 关闭自我保护机制，保证不可用的服务被及时剔除
+    enable-self-preservation: false
+    # 如果2秒内没有收到某个微服务的心跳，那就剔除该微服务，单位为毫秒
+    eviction-interval-timer-in-ms: 2000
+
