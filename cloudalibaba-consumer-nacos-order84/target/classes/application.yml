@@ -13,6 +13,11 @@ spring:
       transport:
         dashboard: localhost:8080 # 配置Sentinel dashboard地址
         port: 8719 #sentinel后台端口
+
 # 消费者将要去访问的微服务名册：方便controller的@value获取
 server-url:
   nacos-user-service: http://nacos-payment-provider
+# 激活Sentinel对Feign的支持
+feign:
+  sentinel:
+    enabled: true

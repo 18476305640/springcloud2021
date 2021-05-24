@@ -1,0 +1,8 @@
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/SeataAccountMainApp2003.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/controller/AccountController.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/service/impl/AccountServiceImpl.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/service/AccountService.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/dao/AccountDao.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/MyBatisConfig.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/domain/Account.java
+/home/zhuangjie/code/i/springcloud2021/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/domain/CommonResult.java

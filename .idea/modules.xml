@@ -31,7 +31,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-consumer9001/hystrix-dashboard-consumer9001.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-consumer9001/hystrix-dashboard-consumer9001.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud2021.iml" filepath="$PROJECT_DIR$/springcloud2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" filepath="$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order-service2001-a/seata-order-service2001-a.iml" filepath="$PROJECT_DIR$/seata-order-service2001-a/seata-order-service2001-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" filepath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" />
     </modules>
   </component>
 </project>

@@ -6,8 +6,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="cloudalibaba-sentinel-service8401" />
+          <element id="module-output" name="springcloud2021" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="springcloud2021/web/Web" />
     </root>
   </artifact>
 </component>

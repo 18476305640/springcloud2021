@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401_b/pom.xml" />
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401_c/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
       </set>
     </option>
   </component>

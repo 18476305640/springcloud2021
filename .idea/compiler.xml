@@ -13,6 +13,7 @@
         <module name="cloud-gateway-9527" />
         <module name="cloud-stream-rabbitmq-consumer-8802" />
         <module name="cloudalibaba-consumer-nacos-order84" />
+        <module name="seata-order-service2001-a" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-config-client-3366" />
@@ -29,8 +30,10 @@
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-consumer-feign-hystrix-order-8080" />
+        <module name="seata-account-service2003" />
         <module name="cloud-stream-rabbitmq-provider-8801" />
         <module name="cloud-stream-rabbitmq-consumer-8803" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-consumer-feign-order8080" />
         <module name="cloud-common" />
         <module name="cloud-consumerzk-order8080" />
@@ -70,6 +73,10 @@
       <module name="cloudalibaba-sentinel-service8401_b" target="11" />
       <module name="cloudalibaba-sentinel-service8401_c" target="1.8" />
       <module name="hystrix-dashboard-consumer9001" target="8" />
+      <module name="seata-account-service2003" target="8" />
+      <module name="seata-order-service2001" target="8" />
+      <module name="seata-order-service2001-a" target="8" />
+      <module name="seata-storage-service2002" target="8" />
       <module name="springcloud2021" target="1.8" />
     </bytecodeTargetLevel>
   </component>
